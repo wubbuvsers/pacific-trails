@@ -68,6 +68,9 @@ footer { background-color: #FFFFFF;
 	   margin-left: 190px;
 	   clear: both;
 }
+#red{
+	color: red;
+}
 #mobile { display: none; }
 #desktop { display: inline; }
 img { max-width: 100%; height: auto; }

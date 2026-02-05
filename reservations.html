@@ -25,7 +25,7 @@
 <div id="content">
 <h2>Reservations at Pacific Trails</h2>
 <h3>Contact Us Today!</h3>
-<p>Required fields are marked with an asterisk *</p>
+<p id="red">Required fields are marked with an asterisk *</p>
 <form method="post" action="http://webdevbasics.net/scripts/pacific.php">
 <label for="myFName">*First Name:</label>
 <input type="text" id="myFName" name="myFName" required>
@@ -33,8 +33,6 @@
 <input type="text" id="myLName" name="myLName" required>
 <label for="myEmail">*E-mail: </label>
 <input type="email" id="myEmail" name="myEmail" size="40" required>
-<label for="myPhone">Phone: </label>
-<input type="tel" id="myPhone" name="myPhone" maxlength="12"> 
 <label for="myArrival">Arrival Date: </label>
 <input type="date" id="myArrival" name="myArrival" >
 <label for="myNights">Nights: </label>
